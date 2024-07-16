@@ -37,18 +37,18 @@ GO
 
 
 UPDATE dbo.Nashville_data
-SET SaleDate = REPLACE(SaleDate, 'stycze+ä', 'January')
+SET SaleDate = REPLACE(SaleDate, 'stycze+Ã¤', 'January')
 SET SaleDate REPLACE(SaleDate, 'luty', 'February')
 SET SaleDate = REPLACE(SaleDate, 'marzec', 'March')
-SET SaleDate = REPLACE(SaleDate, 'kwiecie+ä', 'April')
+SET SaleDate = REPLACE(SaleDate, 'kwiecie+Ã¤', 'April')
 SET SaleDate = REPLACE(SaleDate, 'maj', 'May')
 SET SaleDate = REPLACE(SaleDate, 'czerwiec', 'June')
 SET SaleDate = REPLACE(SaleDate, 'lipiec', 'July')
-SET SaleDate = REPLACE(SaleDate, 'sierpie+ä', 'August')
-SET SaleDate = REPLACE(SaleDate, 'wrzesie+ä', 'September')
-SET SaleDate = REPLACE(SaleDate, 'pa+¦dziernik', 'October')
+SET SaleDate = REPLACE(SaleDate, 'sierpie+Ã¤', 'August')
+SET SaleDate = REPLACE(SaleDate, 'wrzesie+Ã¤', 'September')
+SET SaleDate = REPLACE(SaleDate, 'pa+Â¦dziernik', 'October')
 SET SaleDate = REPLACE(SaleDate, 'listopad', 'November')
-SET SaleDate = REPLACE(SaleDate, 'grudzie+ä', 'December')
+SET SaleDate = REPLACE(SaleDate, 'grudzie+Ã¤', 'December')
 
 
 SELECT *
